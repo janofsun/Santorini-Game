@@ -1,0 +1,175 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(5, 15vmin);
+  grid-template-rows: repeat(5, 15vmin);
+  background-image: url('img/map.png');
+  background-position: center;
+  background-size: cover;
+  padding: 75px;
+  justify-content: center;
+  align-content: center;
+}
+
+.cell {
+  /* background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8); */
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#handlebars {
+  visibility: hidden;
+  display: none;
+}
+
+#bottombar {
+  height: 5vh;
+}
+
+#instructions {
+  height: 3vh;
+  background-color: white;
+  padding: 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#bottombar button {
+  width: 12%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+  font-size: 1.5vw
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* .playble { background-color: #f1ced0;} */
+.Level1 {
+  background-image: url('img/level1.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+.Level2 {
+  background-image: url('img/level2.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+.Level3 {
+  background-image: url('img/level3.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
+.Dome {
+  background-image: url('img/level3Dome.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
+.X {
+  background-image: url('img/level0tokenRed.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
+.O {
+  background-image: url('img/level0tokenBlue.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
+.X.Level1 {
+  background-image: url('img/level1tokenRed.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+.O.Level1 {
+  background-image: url('img/level1tokenBlue.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+.X.Level2 {
+  background-image: url('img/level2tokenRed.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+.O.Level2 {
+  background-image: url('img/level2tokenBlue.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+.X.Level3 {
+  background-image: url('img/level3tokenRed.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+.O.Level3 {
+  background-image: url('img/level3tokenBlue.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
